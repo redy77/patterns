@@ -3,7 +3,7 @@ package singletonMain;
 /**
  * @author Viktor Bakakin
  */
-public class ProgrammeLogger {
+public final class ProgrammeLogger {
     private static ProgrammeLogger programmeLogger;
     private static String logFile = "This is log file. \n\n";
     public static synchronized ProgrammeLogger getProgrammeLogger(){
